@@ -1,3 +1,5 @@
+"use client";
+
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { AlignRight } from "lucide-react";
 import NavLinks from "./NavLinks";

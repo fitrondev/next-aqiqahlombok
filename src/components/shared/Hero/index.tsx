@@ -28,7 +28,6 @@ const Hero = () => {
           <div className="relative w-full h-[250px] sm:h-[300px] lg:size-full">
             <Image src={"/heroimg.svg"} alt="" fill />
           </div>
-          kkk
           <div className="hidden lg:block absolute bottom-28 max-w-[500px] bg-background rounded-lg border shadow-sm p-4 text-sm">
             <p>
               Aqiqah yaitu sembelihan dengan niat mendekatkan diri kepada Allah
