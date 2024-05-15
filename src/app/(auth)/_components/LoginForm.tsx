@@ -16,7 +16,7 @@ const LoginForm = () => {
           <Input
             name="email"
             type="email"
-            placeholder="Input your email"
+            placeholder="Masukkan email Anda"
             className="mt-2"
           />
         </label>
@@ -28,12 +28,12 @@ const LoginForm = () => {
           <Input
             name="password"
             type="password"
-            placeholder="Input your password"
+            placeholder="Masukkan password Anda"
             className="mt-2"
           />
         </label>
       </div>
-      <Button type="submit" className="w-full">
+      <Button type="submit" className="w-full text-lg">
         Login
       </Button>
     </form>
