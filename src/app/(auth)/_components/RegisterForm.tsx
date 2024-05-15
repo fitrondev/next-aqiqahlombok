@@ -70,9 +70,9 @@ const RegisterForm = () => {
           name="name"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Name</FormLabel>
+              <FormLabel>Nama</FormLabel>
               <FormControl>
-                <Input placeholder="Input your name" {...field} />
+                <Input placeholder="Masukkan nama anda" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -86,7 +86,11 @@ const RegisterForm = () => {
             <FormItem>
               <FormLabel>Email</FormLabel>
               <FormControl>
-                <Input type="email" placeholder="Input your email" {...field} />
+                <Input
+                  type="email"
+                  placeholder="Masukkan email anda"
+                  {...field}
+                />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -102,7 +106,7 @@ const RegisterForm = () => {
               <FormControl>
                 <Input
                   type="password"
-                  placeholder="Input your password"
+                  placeholder="Masukkan password anda"
                   {...field}
                 />
               </FormControl>
