@@ -111,3 +111,31 @@ export const packageItems = [
     noted: "",
   },
 ];
+
+export const testimonialItems = [
+  {
+    name: "Budi",
+    desc: "Kami sangat puas dengan pelayanan aqiqah lombok. Owner nya sangat ramah dan pelayanan nya sangat cepat. Pengirimannya juga tepat waktu dan recommended banget.",
+    image: "/male.jpg",
+  },
+  {
+    name: "Joko",
+    desc: "Acara kami berjalan lancar berkat bantuan aqiqah lombok. Walau acara kami sederhana tapi menjadi mewah berkat aqiqah lombok. Terima kasih aqiqah lombok.",
+    image: "/male.jpg",
+  },
+  {
+    name: "Rina",
+    desc: "Kami sangat puas dengan pelayanan aqiqah lombok. Makanannya menggugah selera, keluarga dan tamu undangan kami sangat puas. Terima kasih aqiqah lombok.",
+    image: "/female.jpg",
+  },
+  {
+    name: "Dedi",
+    desc: "Kami saagat puas dengan pelayanan aqiqah lombok. Amanah dan terpercaya. Terima kasih aqiqah lombok.",
+    image: "/male.jpg",
+  },
+  {
+    name: "Rudi",
+    desc: "Tidak kecewa sama sekali dengan pelayanan aqiqah lombok. Amanah dari booking sampai pengantaran. Terima kasih aqiqah lombok.",
+    image: "/male.jpg",
+  },
+];
