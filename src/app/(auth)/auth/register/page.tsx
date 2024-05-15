@@ -16,7 +16,9 @@ const Register = () => {
     <Card className="w-[400px]">
       <CardHeader>
         <CardTitle>Register</CardTitle>
-        <CardDescription>Register to create an account</CardDescription>
+        <CardDescription>
+          Isi formulir di bawah ini untuk mendaftar.
+        </CardDescription>
       </CardHeader>
       <CardContent className="flex flex-col gap-5">
         <RegisterForm />
@@ -24,7 +26,7 @@ const Register = () => {
         <GoogleAction />
       </CardContent>
       <CardFooter className="flex items-center justify-center gap-2 text-sm">
-        <p>Already have an account?</p>
+        <p>Sudah mempunyai akun?</p>
         <Link href={"/auth/login"} className="text-primary">
           Login
         </Link>
