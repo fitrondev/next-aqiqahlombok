@@ -16,15 +16,17 @@ const Login = () => {
     <Card className="w-[400px]">
       <CardHeader>
         <CardTitle>Login</CardTitle>
-        <CardDescription>Login to your account to continue</CardDescription>
+        <CardDescription>
+          Isi formulir di bawah ini untuk masuk.
+        </CardDescription>
       </CardHeader>
       <CardContent className="flex flex-col gap-5">
         <LoginForm />
-        <div className="text-center text-sm">Or continue with</div>
+        <div className="text-center text-sm">Atau menggunakan</div>
         <GoogleAction />
       </CardContent>
       <CardFooter className="flex items-center justify-center gap-2 text-sm">
-        <p>Don&apos;t have an account?</p>
+        <p>Belum mempunyai akun?</p>
         <Link href={"/auth/register"} className="text-primary">
           Register
         </Link>
